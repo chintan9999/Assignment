@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fast-api-deployment
+  labels:
+    name: deployment
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: deployment
+  template:
+    metadata:
+      name: fastapi-pod
+      labels:
+        name: deployment
+    spec:
+      containers:
+      - name: fastapi-container
+        image: cpatel4/fastapi-assignment:latest
+        ports:
+         - containerPort: 8000
+           
+
+           
