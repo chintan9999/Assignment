@@ -55,11 +55,11 @@ This section provides instructions for containerizing the Fast-API server using 
 
 To download and install docker on local machine:
 
-1)For Windows operating system:
+1) For Windows operating system:
 
   Download docker-desktop from https://www.docker.com/products/docker-desktop/ and install Docker-Desktop
 
-2)For Linux operating system:
+2) For Linux operating system:
 
   On CentOS, you can install Docker by running the following commands in a terminal:
 
@@ -73,7 +73,6 @@ To download and install docker on local machine:
 
    Visit the Docker website (https://www.docker.com/products/docker-desktop) and download the Docker Desktop installer for Mac.
 
-   Building the Docker Image locally:
 
 4) To build or use this image, navigate to the project directory where the "Assignment" folder is stored using the terminal.
 
@@ -161,25 +160,25 @@ To download and install docker on local machine:
 
     Assuming that you have already cloned the Git repository and are currently in the "Assignment" directory, follow these steps:
  
-1.) To navigate inside the "Assignment" directory, type the following command in your terminal:
+1)  To navigate inside the "Assignment" directory, type the following command in your terminal:
 
     $ cd Assignment/
  
-2.)  Inside the "Assignment" directory, there is a k8s deployment template folder that contains the deployment.yml and service.yml files. To execute both files at  
+2)   Inside the "Assignment" directory, there is a k8s deployment template folder that contains the deployment.yml and service.yml files. To execute both files at  
      once, run the following command:
      
      $ kubectl apply -f k8s
      
-3.)  Once you execute the above command, both files will be successfully applied to the local Minikube cluster and three pods will be created. You can check this by 
+3)   Once you execute the above command, both files will be successfully applied to the local Minikube cluster and three pods will be created. You can check this by 
      running the following command:
      
      $ kubectl get pods
  
-4.)  To obtain more information about the deployment, run the following command:
+4)   To obtain more information about the deployment, run the following command:
      
      $ kubectl get all
  
-5.)  To access the services running on the pods, open the Minikube (command line or PowerShell) and run the following command:
+5)   To access the services running on the pods, open the Minikube (command line or PowerShell) and run the following command:
 
      $ minikube service fast-api-service --url
  
