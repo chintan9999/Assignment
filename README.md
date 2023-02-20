@@ -57,26 +57,26 @@ To download and install docker on local machine:
 
 1) For Windows operating system:
 
-  Download docker-desktop from https://www.docker.com/products/docker-desktop/ and install Docker-Desktop
+   Download docker-desktop from https://www.docker.com/products/docker-desktop/ and install Docker-Desktop
 
 2) For Linux operating system:
 
   On CentOS, you can install Docker by running the following commands in a terminal:
 
-  $sudo yum install docker
+   $sudo yum install docker
   
-  $sudo systemctl start docker
+   $sudo systemctl start docker
   
-  $sudo systemctl enable docker
+   $sudo systemctl enable docker
 
 3) For MAC operating system:
 
-   Visit the Docker website (https://www.docker.com/products/docker-desktop) and download the Docker Desktop installer for Mac.
+    Visit the Docker website (https://www.docker.com/products/docker-desktop) and download the Docker Desktop installer for Mac.
 
 
 4) To build or use this image, navigate to the project directory where the "Assignment" folder is stored using the terminal.
 
-5) Navigate to the project directory where "Assignment" folder stored
+5) Navigate to the project directory where "Assignment" folder stored.
    For Example, 
    $ cd C:\python_tutorials\Assignment
 
